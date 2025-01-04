@@ -1,0 +1,3 @@
+# Unexpected Behavior when Assigning to Getter Methods in Ruby
+
+This example demonstrates a common pitfall in Ruby regarding the interaction between getter methods and instance variable assignment.  The `bug.rb` file shows code where assigning a new value to a getter method does not modify the internal state of the object.  The `bugSolution.rb` file shows how to properly create a setter method to modify the value.
